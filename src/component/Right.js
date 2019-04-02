@@ -1,10 +1,11 @@
-import  React, { Component } from 'react';
-class Com_1 extends Component {
+import React, { Component } from 'react';
+
+class Right_column extends Component {
 	render() {
 		return (
-			<h1>Right</h1>
-
+			<div className="right_column">Right Column</div>
 		);
 	}
 }
-export default Com_1;
+
+export default Right_column;
